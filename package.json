@@ -18,6 +18,13 @@
   "dependencies": {
   },
   "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.1",
+    "babel-loader": "7.1.2",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-1": "6.24.1",
+    "jasmine-core": "2.5.2",
+    "precommit-hook": "3.0.0",
     "webpack": "3.6.0",
     "webpack-dev-server": "2.3.0"
   },

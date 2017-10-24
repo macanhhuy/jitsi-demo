@@ -3,6 +3,5 @@ node_modules
 .idea/
 *.iml
 .*.tmp
-lib-jitsi-meet.*
 npm-*.log
 .sync-config.cson
