@@ -1,0 +1,32 @@
+{
+  "name": "jitsi-demo",
+  "version": "0.0.0",
+  "description": "git@github.com:macanhhuy/jitsi-demo.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macanhhuy/jitsi-demo"
+  },
+  "keywords": [
+    "jingle",
+    "webrtc",
+    "xmpp",
+    "browser",
+    "jitsi"
+  ],
+  "author": "",
+  "readmeFilename": "README.md",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webpack": "3.6.0",
+    "webpack-dev-server": "2.3.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --content-base app/"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "main": "./index.js",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,8 @@
+node_modules
+*.swp
+.idea/
+*.iml
+.*.tmp
+lib-jitsi-meet.*
+npm-*.log
+.sync-config.cson
